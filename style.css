@@ -8,9 +8,11 @@ h3{
 body{
     font-family: 'Roboto', sans-serif;
 }
+
 .name-higlight{
     color: blue;
 }
+
 .half-width{
     width: 40%;
     float: left;
@@ -18,12 +20,54 @@ body{
     padding-left: 2%;
   
 }
+
 .half-width img{
     width: 100%;
     height: 450px;
 }
 .topbanar{
- border: 1px solid red; 
  background-image: url("image/banner.png");
  height: 430px;
+ background-repeat: no-repeat;
+
+}
+
+.hirebutton{
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: 700px;
+    color: white;
+    background-image: linear-gradient(45deg, lightsalmon, tomato);
+}
+.secoundbanner{
+    background-image: url("image/dream-bg.png");
+    background-repeat: no-repeat;
+    height: 400px;
+    background-position: right;
+
+}
+.border-expriece{
+    box-shadow: 20px 20px 40px gray ;
+    height: 70%; 
+}
+.Exprience{
+ 
+     background-image: url("image/exp-bg.png");
+    background-repeat: no-repeat;
+    background-position: left;
+    height: 450px;
+
+
+}
+
+#ful-stack{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, lightsalmon tomato);
+    border-image-slice: 1;
+}
+#baby-web{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, skyblue blue);
+    border-image-slice: 1;
 }
