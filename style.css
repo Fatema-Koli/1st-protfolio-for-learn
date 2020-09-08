@@ -71,3 +71,7 @@ body{
     border-image: linear-gradient(180deg, skyblue blue);
     border-image-slice: 1;
 }
+footer{
+    text-align: center;
+    padding-bottom: 20px;
+}
